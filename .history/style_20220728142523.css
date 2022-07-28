@@ -116,21 +116,11 @@ footer {
     .join_us_section {
         height: 300px;
     }
-    .slider_caption{
-      padding-bottom: 0;
-    }
     .slider_caption h5{
-        font-size: 2rem;
+        font-size: 10px;
     }
     .slider_caption a{
-        padding: 0.2rem .4rem;
-        
-    }
-    .slider-btn{
-        display: none;
-    }
-    .slider_image{
-        height: 40vh;
+        padding: 0.5rem .8rem;
     }
 }
 @media only screen and (max-width: 770px) {

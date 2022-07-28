@@ -77,13 +77,6 @@ a:hover {
 .slider_caption{
    padding-bottom: 11rem;
 }
-.slider_caption h5{
-    font-size: 3rem;
-}
-.slider_caption p{
-    font-size: 1rem;
-    padding: .5rem;
-}
 
 /* ========FOOTER STYLE======= */
 footer {
@@ -116,21 +109,8 @@ footer {
     .join_us_section {
         height: 300px;
     }
-    .slider_caption{
-      padding-bottom: 0;
-    }
     .slider_caption h5{
-        font-size: 2rem;
-    }
-    .slider_caption a{
-        padding: 0.2rem .4rem;
-        
-    }
-    .slider-btn{
-        display: none;
-    }
-    .slider_image{
-        height: 40vh;
+        font-size: 10px;
     }
 }
 @media only screen and (max-width: 770px) {

@@ -130,7 +130,7 @@ footer {
         display: none;
     }
     .slider_image{
-        height: 40vh;
+        height: 30vh;
     }
 }
 @media only screen and (max-width: 770px) {
