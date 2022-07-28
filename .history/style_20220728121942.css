@@ -82,11 +82,6 @@ footer {
 
 
 /* ======RESPONSIVE======= */
-@media only screen and (max-width: 520px){
-    .join_us_section{
-        height: 300px;
-    }
-}
 @media only screen and (max-width: 770px) {
     #brand_section {
         display: none;
@@ -94,7 +89,7 @@ footer {
     }
 
     #course_img {
-        width: 100%;
+        max-width: 100%;
         vertical-align: middle;
     }
 }

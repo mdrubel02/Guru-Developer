@@ -1,33 +1,19 @@
 /* =====GOOGLE FONTS====== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span {
+body ,h1,h2,h3,h4,h5,h6,p,span{
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
 }
-
-* {
-    box-sizing: border-box;
+*{
+	box-sizing: border-box;
 }
-
-::before,
-::after {
-    box-sizing: border-box;
+::before, ::after{
+	box-sizing: border-box;
 }
-
-img {
-    max-width: 100%;
-    vertical-align: middle;
+img{
+	max-width: 100%;
+	vertical-align: middle;
 }
-
 a {
     color: #fff;
     text-decoration: none;
@@ -37,7 +23,6 @@ a {
 a:hover {
     color: #fff;
 }
-
 .button {
     text-align: center;
     display: inline-block;
@@ -56,23 +41,20 @@ a:hover {
 }
 
 /* ========FOOTER STYLE======= */
-footer {
+footer{
     background-color: #161616;
 }
-
-.social-icon a {
+.social-icon a{
     font-size: 2rem;
     color: #fff;
     padding: .5rem;
 }
-
 /*============ JOIN US SECTION STYLE=========== */
-.join_us_section {
-    background-color: #161616;
-    height: 250px;
+.join_us_section{
+    background-color:  #161616;
+    height: 300px;
 }
-
-.join_us {
+.join_us{
     display: flex;
     gap: 1rem;
     justify-content: space-between;
@@ -82,25 +64,14 @@ footer {
 
 
 /* ======RESPONSIVE======= */
-@media only screen and (max-width: 520px){
-    .join_us_section{
-        height: 300px;
-    }
-}
-@media only screen and (max-width: 770px) {
-    #brand_section {
+@media only screen and (max-width: 770px){
+    #brand_section{
         display: none;
-
-    }
-
-    #course_img {
-        width: 100%;
-        vertical-align: middle;
+ 
     }
 }
-
-@media only screen and (max-width: 970px) {
-    .join_us {
+@media only screen and (max-width: 970px){
+    .join_us{
         flex-direction: column;
     }
 }

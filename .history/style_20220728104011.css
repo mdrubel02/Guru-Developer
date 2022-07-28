@@ -1,0 +1,40 @@
+/* =====GOOGLE FONTS====== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body ,h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+*{
+	box-sizing: border-box;
+}
+::before, ::after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+
+/* ========FOOTER STYLE======= */
+footer{
+    background-color: #161616;
+}
+.social-icon a{
+    font-size: 2rem;
+    color: #fff;
+    padding: .5rem;
+}
+/*============ JOIN US SECTION STYLE=========== */
+.join_us{
+    /* display: flex; */
+}
+
+
+
+/* ======RESPONSIVE======= */
+@media only screen and (max-width: 770px){
+    #brand_section{
+        display: none;
+    }
+}
