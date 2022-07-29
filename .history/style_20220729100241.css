@@ -151,7 +151,7 @@ footer {
      }
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 970px) {
     .join_us {
         flex-direction: column;
     }
