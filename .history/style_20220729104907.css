@@ -85,12 +85,10 @@ a:hover {
     padding: .5rem;
 }
 /* ======EXPLORE SECTION======== */
-
-.explore span{
+.explore{
     font-size: 2rem;
     font-weight: 500;
 }
-
 /* ========FOOTER STYLE======= */
 footer {
     background-color: #161616;
@@ -137,12 +135,6 @@ footer {
     }
     .slider_image{
         height: 40vh;
-    }
-    .explore span{
-        font-size: 1.3rem;
-    }
-    .explore p{
-     font-size: 10px;
     }
 }
 @media only screen and (max-width: 770px) {

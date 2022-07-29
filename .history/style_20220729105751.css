@@ -85,7 +85,9 @@ a:hover {
     padding: .5rem;
 }
 /* ======EXPLORE SECTION======== */
-
+.explore_right{
+    margin-top: 3rem;
+}
 .explore span{
     font-size: 2rem;
     font-weight: 500;
@@ -137,9 +139,6 @@ footer {
     }
     .slider_image{
         height: 40vh;
-    }
-    .explore span{
-        font-size: 1.3rem;
     }
     .explore p{
      font-size: 10px;
